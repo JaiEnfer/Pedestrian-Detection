@@ -87,7 +87,7 @@ while True:
 		personidz=LABELS.index("person"))
 
 	for res in results:
-		cv2.rectangle(image, (res[1][0],res[1][1]), (res[1][2],res[1][3]), (0, 255, 0), 2)
+		cv2.rectangle(image, (res[1][0],res[1][1]), (res[1][2],res[1][3]), (155, 38, 182), 2)
 
 	cv2.imshow("Detection",image)
 
@@ -97,5 +97,3 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
-
-
